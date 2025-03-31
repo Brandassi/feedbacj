@@ -17,4 +17,29 @@
   .bg-radial-gradient {
     background-image: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
   }
+
+  .card-thank-you {
+    text-align: center;
+  }
+
+  .card-thank-you img {
+    max-width: 200px;
+  }
+
+  .card-thank-you p {
+    background-color: var(--color-dark-blue);
+    color: var(--color-orange);
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+  }
+
+  .card-thank-you h1 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .card-thank-you p {
+    color: var(--color-light-grey);
+  }
 }
