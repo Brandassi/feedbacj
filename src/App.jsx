@@ -2,6 +2,7 @@ import iconStar from "./assets/icon-star.svg"
 import { useState } from "react"
 import illustrationThankYou from "./assets/illustration-thank-you.svg"
 
+
 export function App(){
   const [submited, setSubmited] = useState(false)
   const [rateNote,setRateNote] = useState(0)
